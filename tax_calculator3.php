@@ -4,19 +4,19 @@ function taxcalculator3() {
    switch($salary){
     case $salary > 100000:
      $percentage=($salary/50)*100;
-     echo $percentage;
+     echo "tax = ". $percentage;
 
      break;
 
     case $salary >=80000 && $salary <=90000:
      $percentage=($salary/35)*100;
-     echo $percentage;
+     echo"tax = ". $percentage;
 
      break;
 
     case $salary < 80000:
     $percentage=($salary/20)*100;
-    echo $percentage;
+    echo "tax = ". $percentage;
 
     default:
     echo "invalid";
