@@ -13,5 +13,8 @@ function taxcalculator1() {
         $percentage=($salary/20)*100; 
         echo $percentage;
     }
+    else{
+        echo "invalid";
+    }
 }
 taxcalculator1();
