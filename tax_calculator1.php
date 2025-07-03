@@ -18,10 +18,7 @@ function taxcalculator1() {
         echo "tax = ". $percentage;
         echo "\n";
     }
-    else{
-        echo "invalid";
-        echo "\n";
-    }
+
     }while($salary!==0);
 }
 taxcalculator1();
