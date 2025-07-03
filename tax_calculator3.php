@@ -1,26 +1,30 @@
 <?php
 function taxcalculator3() {
+    do{
+
     $salary=readline("Enter salary: ");
    switch($salary){
     case $salary > 100000:
      $percentage=($salary/50)*100;
      echo "tax = ". $percentage;
+     echo "\n";
 
      break;
 
     case $salary >=80000 && $salary <=90000:
      $percentage=($salary/35)*100;
      echo"tax = ". $percentage;
+    echo "\n";
 
      break;
 
     case $salary < 80000:
     $percentage=($salary/20)*100;
     echo "tax = ". $percentage;
+    echo "\n";
 
-    default:
-    echo "invalid";
 
    }
+    }while($salary!==0);
 }
 taxcalculator3();
