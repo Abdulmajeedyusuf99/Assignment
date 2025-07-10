@@ -25,6 +25,6 @@ function taxcalculator3() {
 
 
    }
-    }while($salary!==0);
+    }while($salary!=="0");
 }
 taxcalculator3();
