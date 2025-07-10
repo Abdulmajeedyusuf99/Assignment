@@ -1,4 +1,7 @@
 <?php
+
+use BcMath\Number;
+
 function taxcalculator1() {
     do{
 
@@ -19,6 +22,6 @@ function taxcalculator1() {
         echo "\n";
     }
 
-    }while($salary!==0);
+    }while($salary!=="0");
 }
 taxcalculator1();
