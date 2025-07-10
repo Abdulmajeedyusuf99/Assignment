@@ -19,7 +19,7 @@ function taxcalculator2() {
         echo "\n";
     }
     
-    }while($salary!==0);
+    }while($salary!=="0");
 }
 taxcalculator2();
 
