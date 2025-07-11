@@ -4,17 +4,17 @@ function taxcalculator2() {
 
     $salary=readline("Enter salary: ");
     if($salary > 100000){
-        $percentage=($salary/50)*100;
+        $percentage=(50/100)*$salary;
         echo "tax = ". $percentage;
         echo "\n";
     }
     if($salary >=80000 && $salary <=90000){
-        $percentage=($salary/35)*100;
+        $percentage=(35/100)*$salary;
         echo"tax = ". $percentage;
         echo "\n";
     }
     if($salary < 80000){
-        $percentage=($salary/20)*100; 
+        $percentage=(20/100)*$salary; 
         echo "tax = ".  $percentage;
         echo "\n";
     }
